@@ -33,14 +33,24 @@ Console.WriteLine($"La suma es {numA+numB}\nLa resta es{numA-numB}" +
 //Operadores Lógicos
 //AND, OR, NOT
 
-bool datoA = true;
+/*bool datoA = true;
 bool datoB = true;
 
 Console.WriteLine(datoA && datoB);
 Console.WriteLine(datoA || datoB);
 Console.WriteLine(!datoA);
-Console.WriteLine(!datoB);
+Console.WriteLine(!datoB);*/
 
+
+//Operadores Relacionales
+
+float numA = 8.7233f;
+float numB = 8.7233f;
+
+Console.WriteLine(numA>numB);
+Console.WriteLine(numA<numB);
+Console.WriteLine(numA==numB);
+Console.WriteLine(numA!=numB);
 
 
 
