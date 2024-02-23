@@ -14,6 +14,7 @@ var algo = 0.1f;
 Console.WriteLine(dinero*algo);*/
 
 
+/*
 //Operadores aritmeticos
 // + - * / %
 
@@ -24,7 +25,21 @@ numB = 7.1;
 
 Console.WriteLine($"La suma es {numA+numB}\nLa resta es{numA-numB}" +
                   $"\nEl producto es {numA*numB}"+
+                  $"\nEl residuo es {numA%numB}"+
                   $"\nEl cociente es {numA/numB}");
+                  */
+
+
+//Operadores Lógicos
+//AND, OR, NOT
+
+bool datoA = true;
+bool datoB = true;
+
+Console.WriteLine(datoA && datoB);
+Console.WriteLine(datoA || datoB);
+Console.WriteLine(!datoA);
+Console.WriteLine(!datoB);
 
 
 
