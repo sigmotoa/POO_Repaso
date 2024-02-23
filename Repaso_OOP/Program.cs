@@ -42,6 +42,7 @@ Console.WriteLine(!datoA);
 Console.WriteLine(!datoB);*/
 
 
+/*
 //Operadores Relacionales
 
 float numA = 8.7233f;
@@ -51,13 +52,30 @@ Console.WriteLine(numA>numB);
 Console.WriteLine(numA<numB);
 Console.WriteLine(numA==numB);
 Console.WriteLine(numA!=numB);
+*/
 
 
+int edad = 0;
+Console.WriteLine("Ingrese su edad");
 
+edad = Convert.ToInt16(Console.ReadLine());
+string day = "Friday";
+bool genero = false;
+//False = hombre
+//True = mujer
 
-
-
-
-
-
-
+if (edad > 18 && day == "Friday")
+{
+    if (genero)
+    {
+        Console.WriteLine("Bienvenido a Piscilago, mi rey");
+    }
+    else
+    {
+        Console.WriteLine("Bienvenido a Piscilago, mi reina");
+    }
+}
+else
+{
+    Console.WriteLine("A dormir bebe");
+}
