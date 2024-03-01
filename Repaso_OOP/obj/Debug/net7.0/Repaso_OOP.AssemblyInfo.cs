@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Repaso_OOP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf69738a44ff86594dda36ca76ff8c7e05235e69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e07375be4e3cd8c7f25065aa49f9e3c1c471329")]
 [assembly: System.Reflection.AssemblyProductAttribute("Repaso_OOP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repaso_OOP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

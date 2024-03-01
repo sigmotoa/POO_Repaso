@@ -140,25 +140,76 @@ Console.WriteLine($"El promedo de notas es: {average / 5}");*/
 
 //Recibir el cover de un bar y mostrar cuanto ingreso.
 
+//
+// int capacidad = 0;
+// double pagos = 0d;
+//
+// Console.WriteLine("Ingrese la capacidad del bar");
+// capacidad = Convert.ToInt32(Console.ReadLine());
+//
+// for (int i = 1; i <= capacidad; i++)
+// {
+//     Console.WriteLine($"Usted es la {i} persona en llegar \nPague.");
+//     pagos = pagos+ Convert.ToDouble(Console.ReadLine());
+// }
+// Console.WriteLine($"Nos ganamos {pagos} lukas");
+//
 
-int capacidad = 0;
-double pagos = 0d;
+string[] countries = new[] { "CO", "MX", "CA", "AU"};
 
-Console.WriteLine("Ingrese la capacidad del bar");
-capacidad = Convert.ToInt32(Console.ReadLine());
+/*
 
-for (int i = 1; i <= capacidad; i++)
+for (int i = 0; i < countries.Length; i++)
 {
-    Console.WriteLine($"Usted es la {i} persona en llegar \nPague.");
-    pagos = pagos+ Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine($"{countries[i]} es el pais en el sitio: {i}" );
 }
-Console.WriteLine($"Nos ganamos {pagos} lukas");
+*/
+
+/*
+var i = 0;
+while (i<4)
+
+{
+    i++;
+    Console.WriteLine("Hello");
+    Console.WriteLine(countries[i]);
+
+}
+*/
+
+//Usando while, haga un ciclo que imprima un 
+//Hello a cada paso, pero pregunte si desea conyinuat
 
 
+List<int> misenteros = new List<int>();
+
+misenteros.Add(10);
+misenteros.Add(10);
+misenteros.Add(10);
+misenteros.Add(10);
+misenteros.Add(10);
+
+bool next = false;
+
+do {
+    Console.WriteLine("Ingrese un numero entero");
+    misenteros.Add(Convert.ToInt16(Console.ReadLine()));
+    Console.WriteLine("Desea continuar");
+    next = Convert.ToBoolean(Console.ReadLine());
+}
+while (next) ;
+
+foreach (var dato in misenteros)
+{
+    Console.WriteLine(dato);
+}
 
 
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
+    
