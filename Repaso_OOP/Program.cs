@@ -55,12 +55,13 @@ Console.WriteLine(numA!=numB);
 */
 
 
+/*
 int edad = 0;
 Console.WriteLine("Ingrese su edad");
 
 edad = Convert.ToInt16(Console.ReadLine());
 string day = "Friday";
-bool genero = false;
+bool genero = true;
 //False = hombre
 //True = mujer
 
@@ -78,4 +79,52 @@ if (edad > 18 && day == "Friday")
 else
 {
     Console.WriteLine("A dormir bebe");
+}*/
+
+
+using System.Linq.Expressions;
+
+string caso = "caso9";
+Console.WriteLine("Ingrese un caso");
+caso = Console.ReadLine();
+
+switch (caso)
+{
+    case "caso1":
+        Console.WriteLine("Soy el Caso1");
+        break;
+    case "caso2":
+        Console.WriteLine("Soy el Caso2");
+        break;
+    
+    case "caso3":
+        Console.WriteLine("Soy el Caso3");
+        break;
+    
+    case "caso4":
+        Console.WriteLine("Caso4");
+        break;
+    
+    case "caso5":
+        Console.WriteLine("Caso5");
+        break;
+    
+    case "caso6":
+        Console.WriteLine("Caso6");
+        break;
+    
+    case null:
+        Console.WriteLine("Bueno");
+        break;
+    
+    default:
+        Console.WriteLine("Toma tu medicina");
+        break;
+    
+    
 }
+
+
+
+
+
