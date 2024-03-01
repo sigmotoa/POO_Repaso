@@ -82,6 +82,7 @@ else
 }*/
 
 
+/*
 using System.Linq.Expressions;
 
 string caso = "caso9";
@@ -96,33 +97,66 @@ switch (caso)
     case "caso2":
         Console.WriteLine("Soy el Caso2");
         break;
-    
+
     case "caso3":
         Console.WriteLine("Soy el Caso3");
         break;
-    
+
     case "caso4":
         Console.WriteLine("Caso4");
         break;
-    
+
     case "caso5":
         Console.WriteLine("Caso5");
         break;
-    
+
     case "caso6":
         Console.WriteLine("Caso6");
         break;
-    
+
     case null:
         Console.WriteLine("Bueno");
         break;
-    
+
     default:
         Console.WriteLine("Toma tu medicina");
         break;
-    
-    
+
+
 }
+*/
+
+/*
+int average = 0;
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine("Ingrese su nota");
+    int num = Convert.ToInt32(Console.ReadLine());
+
+    average = average + num;
+}
+
+Console.WriteLine($"El promedo de notas es: {average / 5}");*/
+
+//Recibir el cover de un bar y mostrar cuanto ingreso.
+
+
+int capacidad = 0;
+double pagos = 0d;
+
+Console.WriteLine("Ingrese la capacidad del bar");
+capacidad = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 1; i <= capacidad; i++)
+{
+    Console.WriteLine($"Usted es la {i} persona en llegar \nPague.");
+    pagos = pagos+ Convert.ToDouble(Console.ReadLine());
+}
+Console.WriteLine($"Nos ganamos {pagos} lukas");
+
+
+
+
 
 
 
