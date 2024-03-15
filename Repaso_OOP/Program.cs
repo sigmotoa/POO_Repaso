@@ -218,10 +218,11 @@ void f1()
     valor++;
 }
 
-for (int i = 0; i < 5; i++)
+for (int i = 0; i < 15; i++)
 {
     f1();
     Console.WriteLine(f2());
+    f3(f2());
 }
 
 Console.WriteLine(valor);
@@ -233,9 +234,31 @@ int f2()
     return valor;
 }
 
+//Recibe, no retorna
 
 
+void f3(int n)
+{
+    var m = n * n;
+    Console.WriteLine("\t" +m);
+}
 
+//Recibe y Retorna
+int f4(bool potencia)
+{
+    if (potencia==true)
+    {
+        f3(valor+5);
+    }
+    else
+    {
+        f1();
+    }
+
+    return valor;
+}
+
+f4(false);
 
 
 
