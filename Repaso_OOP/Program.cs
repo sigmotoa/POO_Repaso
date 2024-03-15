@@ -155,7 +155,7 @@ Console.WriteLine($"El promedo de notas es: {average / 5}");*/
 // Console.WriteLine($"Nos ganamos {pagos} lukas");
 //
 
-string[] countries = new[] { "CO", "MX", "CA", "AU"};
+string[] countries = new[] { "CO", "MX", "CA", "AU" };
 
 /*
 
@@ -181,6 +181,7 @@ while (i<4)
 //Hello a cada paso, pero pregunte si desea conyinuat
 
 
+/*
 List<int> misenteros = new List<int>();
 
 misenteros.Add(10);
@@ -203,13 +204,41 @@ foreach (var dato in misenteros)
 {
     Console.WriteLine(dato);
 }
+*/
+//Funciones
+
+//No recibe y no retorna
+
+int valor = 0;
+
+Console.WriteLine(valor);
+
+void f1()
+{
+    valor++;
+}
+
+for (int i = 0; i < 5; i++)
+{
+    f1();
+    Console.WriteLine(f2());
+}
+
+Console.WriteLine(valor);
+
+//No recibe, si retorna
+
+int f2()
+{
+    return valor;
+}
 
 
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
