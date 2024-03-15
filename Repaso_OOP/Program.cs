@@ -261,6 +261,23 @@ int f4(bool potencia)
 f4(false);
 
 
+//Ejercicio taller
+//Crear una funcion que muestre menu
+//Menu, debe repetirse hasta que el usuario se salga
+//Las acciones del menu, deben estar en funciones
+//Pedir n numeros para sacar el promedio
+//Pedir fecha de nacimiento y definir signo y edad
+//Pedir radio de circulo y calcular area y perimetro y volumen
+//Mostrar los n primeros numeros impares
+//Sumar los numeros primos del 1 al 100
+
+
+
+
+
+
+
+
 
 
 
